@@ -1,0 +1,10 @@
+{
+  "name": "Baby Kick Counter",
+  "short_name": "Kick Counter",
+  "description": "Simple baby kick counting and movement pattern tracker",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7fb",
+  "theme_color": "#f7d8e8",
+  "icons": []
+}
