@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureSchema, getSql } from '@/lib/db';
+import { neon } from "@neondatabase/serverless";
+
 
 function validatePeriod(period) {
   return ['morning', 'afternoon', 'evening'].includes(period);
